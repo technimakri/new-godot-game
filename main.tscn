@@ -18,21 +18,12 @@ metadata/_edit_lock_ = true
 [node name="World" type="Node2D" parent="."]
 
 [node name="Player" parent="World" instance=ExtResource("1_g3f4c")]
-position = Vector2(218, 520)
+position = Vector2(245, 481)
 
-[node name="MinotaurSprite" parent="World" instance=ExtResource("2_6qvyr")]
-position = Vector2(466, 382)
+[node name="AllyMinotaur" parent="World" instance=ExtResource("2_6qvyr")]
+position = Vector2(532, 327)
 
-[node name="MinotaurSprite2" parent="World" instance=ExtResource("2_6qvyr")]
-position = Vector2(844, 169)
+[node name="EnemyMinotaur" parent="World" instance=ExtResource("2_6qvyr")]
+position = Vector2(844, 159)
 scale = Vector2(-2.289, 2.289)
 texture = ExtResource("3_hajtg")
-
-[node name="Control" type="Control" parent="."]
-layout_mode = 3
-anchors_preset = 2
-anchor_top = 1.0
-anchor_bottom = 1.0
-offset_top = -80.0
-offset_right = 100.0
-grow_vertical = 0
