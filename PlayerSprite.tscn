@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://ddq2yda4g30ya"]
+[gd_scene load_steps=6 format=3 uid="uid://ddq2yda4g30ya"]
 
 [ext_resource type="Texture2D" uid="uid://cgksknphjq0ii" path="res://assets/adventurer/adventurer_sprite_sheet_v1.1.png" id="1_0smi4"]
+[ext_resource type="FontFile" uid="uid://uo2ss3rcv7ph" path="res://fonts/Xolonium-Regular.ttf" id="2_mlfje"]
 
 [sub_resource type="Animation" id="Animation_rdxox"]
 resource_name = "RESET"
@@ -42,8 +43,8 @@ _data = {
 }
 
 [node name="Player" type="Sprite2D"]
-position = Vector2(167, 505)
-scale = Vector2(5.59375, 5.59375)
+position = Vector2(373.25, 700.75)
+scale = Vector2(9.35938, 9.35938)
 texture = ExtResource("1_0smi4")
 hframes = 13
 vframes = 8
@@ -67,8 +68,12 @@ metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="ProgressBar"]
 layout_mode = 0
-offset_right = 28.0
-offset_bottom = 23.0
+offset_left = -2.51219
+offset_top = -4.31185
+offset_right = 21.4878
+offset_bottom = 9.68815
+theme_override_fonts/font = ExtResource("2_mlfje")
+theme_override_font_sizes/font_size = 6
 text = "100"
 horizontal_alignment = 1
 vertical_alignment = 1
