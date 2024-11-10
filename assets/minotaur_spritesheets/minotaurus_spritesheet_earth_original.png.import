@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmfv40l037uup"
-path="res://.godot/imported/minotaurus_spritesheet_lava.png-9160d89ee48226650945ec7f648d09c4.ctex"
+uid="uid://d25r6enwntxy6"
+path="res://.godot/imported/minotaurus_spritesheet_earth_original.png-6681417439ce2e21f0080015025b1d8e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://minotaur_spritesheets/minotaurus_spritesheet_lava.png"
-dest_files=["res://.godot/imported/minotaurus_spritesheet_lava.png-9160d89ee48226650945ec7f648d09c4.ctex"]
+source_file="res://assets/minotaur_spritesheets/minotaurus_spritesheet_earth_original.png"
+dest_files=["res://.godot/imported/minotaurus_spritesheet_earth_original.png-6681417439ce2e21f0080015025b1d8e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ci3giqhyx1r12"
-path="res://.godot/imported/minotaurus_spritesheet_lightning.png-b48796f94c138f315bf6fa1a281b934c.ctex"
+path="res://.godot/imported/minotaurus_spritesheet_lightning.png-c5e71f9a1d70eeedda3494463747d37d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://minotaur_spritesheets/minotaurus_spritesheet_lightning.png"
-dest_files=["res://.godot/imported/minotaurus_spritesheet_lightning.png-b48796f94c138f315bf6fa1a281b934c.ctex"]
+source_file="res://assets/minotaur_spritesheets/minotaurus_spritesheet_lightning.png"
+dest_files=["res://.godot/imported/minotaurus_spritesheet_lightning.png-c5e71f9a1d70eeedda3494463747d37d.ctex"]
 
 [params]
 

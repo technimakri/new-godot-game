@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d25r6enwntxy6"
-path="res://.godot/imported/minotaurus_spritesheet_earth_original.png-d550d6a9ec927a384e9c302febfbaba5.ctex"
+uid="uid://ddeuwst4n5pf5"
+path="res://.godot/imported/minotaurus_spritesheet_frost.png-133ef0381a2d27455c7c606414a481c0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://minotaur_spritesheets/minotaurus_spritesheet_earth_original.png"
-dest_files=["res://.godot/imported/minotaurus_spritesheet_earth_original.png-d550d6a9ec927a384e9c302febfbaba5.ctex"]
+source_file="res://assets/minotaur_spritesheets/minotaurus_spritesheet_frost.png"
+dest_files=["res://.godot/imported/minotaurus_spritesheet_frost.png-133ef0381a2d27455c7c606414a481c0.ctex"]
 
 [params]
 
