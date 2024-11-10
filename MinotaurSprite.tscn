@@ -1,7 +1,22 @@
-[gd_scene load_steps=6 format=3 uid="uid://dhubydl5xen3u"]
+[gd_scene load_steps=7 format=3 uid="uid://dhubydl5xen3u"]
 
 [ext_resource type="Texture2D" uid="uid://d25r6enwntxy6" path="res://assets/minotaur_spritesheets/minotaurus_spritesheet_earth_original.png" id="1_mjhnn"]
 [ext_resource type="PackedScene" uid="uid://d1dvd0boaf8cd" path="res://HealthBar.tscn" id="2_dn6m8"]
+
+[sub_resource type="Animation" id="Animation_ct8rx"]
+resource_name = "RESET"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
 
 [sub_resource type="Animation" id="Animation_to0pe"]
 resource_name = "idle"
@@ -21,21 +36,6 @@ tracks/0/keys = {
 "values": [0, 1, 0]
 }
 
-[sub_resource type="Animation" id="Animation_ct8rx"]
-resource_name = "RESET"
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:frame")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [0]
-}
-
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_vwoao"]
 _data = {
 "RESET": SubResource("Animation_ct8rx"),
@@ -49,12 +49,6 @@ texture = ExtResource("1_mjhnn")
 hframes = 5
 vframes = 3
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
-libraries = {
-"": SubResource("AnimationLibrary_vwoao")
-}
-autoplay = "idle"
-
 [node name="HealthBar" parent="." instance=ExtResource("2_dn6m8")]
 anchors_preset = -1
 anchor_left = 0.000846148
@@ -65,3 +59,9 @@ offset_left = -19.5736
 offset_top = 31.7868
 offset_right = -0.57361
 offset_bottom = 36.7868
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_vwoao")
+}
+autoplay = "idle"
