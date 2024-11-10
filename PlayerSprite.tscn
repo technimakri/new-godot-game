@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://ddq2yda4g30ya"]
 
-[ext_resource type="Texture2D" uid="uid://cgksknphjq0ii" path="res://assets/adventurer_sprite_sheet_v1.1.png" id="1_0smi4"]
+[ext_resource type="Texture2D" path="res://assets/adventurer_sprite_sheet_v1.1.png" id="1_0smi4"]
 
 [sub_resource type="Animation" id="Animation_rdxox"]
 resource_name = "RESET"
@@ -19,8 +19,21 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_8lgbf"]
 resource_name = "idle"
-length = 2.0
+length = 11.0
 loop_mode = 1
+step = 1.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2.70257, 3.37892, 4, 5, 5.65266, 6.13165, 6.60275, 7.06595, 7.55283, 7.99235),
+"transitions": PackedFloat32Array(1, 1, 0.0669859, 1, 1, 1, 0.0358969, 1, 1, 1, 1, 1),
+"update": 1,
+"values": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_mu5qc"]
 _data = {
