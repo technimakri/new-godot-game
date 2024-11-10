@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://ddq2yda4g30ya"]
 
-[ext_resource type="Texture2D" path="res://assets/adventurer_sprite_sheet_v1.1.png" id="1_0smi4"]
+[ext_resource type="Texture2D" uid="uid://cgksknphjq0ii" path="res://assets/adventurer/adventurer_sprite_sheet_v1.1.png" id="1_0smi4"]
 
 [sub_resource type="Animation" id="Animation_rdxox"]
 resource_name = "RESET"
@@ -52,3 +52,4 @@ vframes = 8
 libraries = {
 "": SubResource("AnimationLibrary_mu5qc")
 }
+autoplay = "idle"
